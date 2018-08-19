@@ -50,4 +50,26 @@ ON users2.id = follows.follower_id
 WHERE users.id = 1
 GROUP BY users.id;
 
+-- CRUD Create, Review, Update, Delete
+
+
+
+-- INSERT (Create)-- 
+-- INSERT INTO table_name (column_name1, column_name2) 
+-- VALUES('column1_value', 'column2_value');SERT INTO table_name (column_name1, column_name2)  VALUES('c
+-- INSERT INTO `users` (`id`, `first_name`, `last_name`, `handle`, `birthday`, `created_at`, `updated_at`) VALUES ('7', 'Mike', 'Like', 'Mike1', '1989-10-05', NOW(),NOW());
+
+-- View All (Review)
+-- SELECT * FROM users;
+
+-- UPDATE --
+-- UPDATE table_name SET column_name1 = 'some_value', column_name2='another_value' WHERE condition(s)
+-- UPDATE `users` SET `updated_at`= NOW() WHERE `id`='6';
+
+-- DELETE
+-- DELETE FROM table_name WHERE condition(s)
+-- DELETE FROM `users` WHERE `id`='6';
+-- DELETE FROM `users` WHERE `id` = '7';
+
+
 
